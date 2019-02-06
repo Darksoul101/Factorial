@@ -37,7 +37,7 @@ For every number N, output a single line containing the single non-negative inte
 2183837
 
 # Algorithm
-I am taking a input from the user and stor it in a variable. Then looking that if mod of that number is zero. If the mod is zero, we will find the number of zeroes like 5,25 in the case of 100. So the we calculate 100/5=20 then 100/25=4. Then just add 20+4 and the answer is 24. For 1000 zeroes are 5,25,5 X 25..... squring then cubing and so on, if it get greater then 1000 we will stop there and take the last number(in this case 625 which is 5^4) and divide all the zeroes with 1000(1000/5,1000/25....) then add all the answers and we get the number of zeroes.
+I am taking a input from the user and store it in a variable. Then looking that if mod of that number is zero. If the mod is zero, we will find the number of zeroes like 5,25 in the case of 100. So the we calculate 100/5=20 then 100/25=4. Then just add 20+4 and the answer is 24. For 1000 zeroes are 5,25,5 X 25..... squring then cubing and so on, if it get greater then 1000 we will stop there and take the last number(in this case 625 which is 5^4) and divide all the zeroes with 1000(1000/5,1000/25....) then add all the answers and we get the number of zeroes.
 
 ## Example Code For The Alorithm
 ```
