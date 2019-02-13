@@ -1,8 +1,6 @@
 M = int(input())
+
 def fund(T):
-    if M > 1000000000:
-        print('Error')
-        return False
     a=5
     f=0
     while True:
@@ -13,4 +11,11 @@ def fund(T):
             break
         T = T-(T%5)
     print(int(f))
-fund(M)
+
+if M > 1000000000:
+   print('Error')
+   return False
+else:
+    fund(M)
+
+
